@@ -1,0 +1,84 @@
+{
+  "default": true,
+  "key": "target-${1}",
+  "name": "${2}",
+  "type": "toggle",
+  "useDesc": false,
+  "width": 0.8
+},
+{
+  "default": 9,
+  "key": "p1-${1}",
+  "name": "",
+  "type": "select",
+  "useDesc": false,
+  "values": [
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:16|t",
+    "None"
+  ],
+  "width": 0.3
+},
+{
+  "default": 9,
+  "key": "p2-${1}",
+  "name": "",
+  "type": "select",
+  "useDesc": false,
+  "values": [
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:16|t",
+    "None"
+  ],
+  "width": 0.3
+},
+{
+  "default": 9,
+  "key": "p3-${1}",
+  "name": "",
+  "type": "select",
+  "useDesc": false,
+  "values": [
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:16|t",
+    "None"
+  ],
+  "width": 0.3
+},
+{
+  "default": 9,
+  "key": "p4-${1}",
+  "name": "",
+  "type": "select",
+  "useDesc": false,
+  "values": [
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:16|t",
+    "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:16|t",
+    "None"
+  ],
+  "width": 0.3
+},

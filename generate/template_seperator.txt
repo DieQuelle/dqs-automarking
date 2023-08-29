@@ -1,0 +1,7 @@
+{
+  "noMerge": false,
+  "text": "$0",
+  "type": "header",
+  "useName": true,
+  "width": 0.3
+},
