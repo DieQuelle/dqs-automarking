@@ -13,10 +13,12 @@ Toolset for creating forks of automarker weakauras based on csv data.
 
 1. Get Data from wowhead or any other source
 2. Create CSV according to example.csv
-* It includes Zone Name, Monster Name, NPCID, type, default, d1, d2, d3,d4,comment
+
  
 > [!WARNING]
 > Make Sure you export in "CSV UTF-8 with delimiter" in Excel if you use this.
+> 
+> *It includes Zone Name, Monster Name, NPCID, type, default, d1, d2, d3,d4,comment*
 
 3. Upload file to [CSV-Parser](https://automarker.d-q.xyz/csvparse_v1.html)
 4. You now have the author-options as raw Code
@@ -37,7 +39,8 @@ Toolset for creating forks of automarker weakauras based on csv data.
 9. Copy Import String
 10. Update Local Weakaura in your WoW Client by Importing the New String
 
-See Screenshot:
+Screenshot
+
 <img src="/images/howto1.png" width="200">
 
 > [!IMPORTANT]
