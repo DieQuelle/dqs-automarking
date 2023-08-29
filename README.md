@@ -3,7 +3,7 @@ Toolset for creating forks of automarker weakauras based on csv data.
 
 ## CSV Parser
 
-[CSV-Parser](automarker.d-q.xyz/csvparse_v1.html)
+[CSV-Parser](https://automarker.d-q.xyz/csvparse_v1.html)
 
 [Example.CSV](../example.csv)
 
@@ -11,7 +11,7 @@ Toolset for creating forks of automarker weakauras based on csv data.
 2. Create CSV according to example.csv
 * It includes Zone Name, Monster Name, NPCID, type, default, d1, d2, d3,d4,comment
 ** Make Sure you export in "CSV UTF-8 with delimiter" in Excel if you use this.
-3. Upload file to [CSV-Parser](automarker.d-q.xyz/csvparse_v1.html)
+3. Upload file to [CSV-Parser](https://automarker.d-q.xyz/csvparse_v1.html)
 4. You now have the author-options as raw Code
 
 ---
