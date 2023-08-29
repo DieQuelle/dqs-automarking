@@ -29,9 +29,10 @@ Toolset for creating forks of automarker weakauras based on csv data.
 8. Press Save & Reload the Page
 9. Copy Import String
 10. Update Local Weakaura in your WoW Client by Importing the New String
-See Screenshot:
 
-![howto1.png](/images/howto1.png)
+See Screenshot:
+<img src="/images/howto1.png" width="200">
+
 
 **For 1. - 3. Copy it from this Weakaura:** https://wago.io/Ck9JAf55V
 
