@@ -1,6 +1,5 @@
 document.getElementById('csvFile').addEventListener('change', handleFileUpload);
 
-
 const separatorTemplate = `
 {
   "noMerge": false,
@@ -154,6 +153,7 @@ function handleFileUpload(event) {
         }
     });
 }
+
 
 function processCSV(data) {
     let output = "";
