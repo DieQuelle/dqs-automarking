@@ -1,74 +1,76 @@
 # DQS-Auto Marking
-Toolset for creating forks of automarker weakauras based on csv data.
+
+A toolset for creating forks of automarker WeakAuras based on CSV data.
 
 ## DQ's Auto Marker for ICC by <p h o e n i x> Razorfen
 
-[DQ's Auto Marker for ICC](https://wago.io/Ck9JAf55V)
+- [DQ's Auto Marker for ICC](https://wago.io/Ck9JAf55V)
 
 ## CSV Parser
 
-[CSV-Parser](https://automarker.d-q.xyz/csvparse_v1.html)
-
-[Example.CSV](../example.csv)
-
-1. Get Data from wowhead or any other source
-2. Create CSV according to example.csv
-
- 
-> [!WARNING]
-> Make Sure you export in "CSV UTF-8 with delimiter" in Excel if you use this.
-> 
-> *It includes Zone Name, Monster Name, NPCID, type, default, d1, d2, d3,d4,comment*
-
-3. Upload file to [CSV-Parser](https://automarker.d-q.xyz/csvparse_v1.html)
-4. You now have the author-options as raw Code
+- [CSV-Parser v1](https://automarker.d-q.xyz/csvparse_v1.html)
+- [CSV-Parser v2](https://automarker.d-q.xyz/csvparse_v2.html)
+- [Sample CSV](../example.csv)
 
 ---
 
-## How do I create a fresh Weakaura from this? 
+## Obtain Data for the Marking Weakaura 
 
+1. Obtain data from WoWHead or other similar sources.
+2. Format your CSV according to the provided example.csv.
 
-1. Basically you have to create fresh New Weakaura.
-2. Copy Trigger
-3. On Init Custom Action
-4. Change Custom Option Group "optICC" to your liking make sure its updated on all occurences inside the above mentioned parts.
-5. Upload it Empty to wago.io (please upload it as unlisted weakaura and include a backlink)
-6. Go to Editor and open "Table-Data" > look for `"authorOptions": [...]` **line 34**
-7. Update the Author Options
-8. Press Save & Reload the Page
-9. Copy Import String
-10. Update Local Weakaura in your WoW Client by Importing the New String
-
-Screenshot
-
-<img src="/images/howto1.png" width="200">
-
-> [!IMPORTANT]
-> For 1. - 3. Copy it from this Weakaura: https://wago.io/Ck9JAf55V
+   > ⚠️ **Note:** If you're using Excel, ensure you export in the "CSV UTF-8 with delimiter" format.
+   >
+   > The file should include: Zone Name, Monster Name, NPCID, type, default, d1, d2, d3, d4, and comment.
 
 ---
 
-### TODO
+## How to Create a New WeakAura with my own Custom Options? 
 
-- [x] Basic CSV Parser
-- [x] Create Some Basic Documentation
-- [ ] Create Full Table Data Merger so it will automatically output the whole Table with just the updated stuff in author options
-- [ ] Create Empty Weakaura with working Content
-- [ ] Document the Full Process Step by Step
-- [ ] Spread my work :tada:
-  
+1. Begin by creating a new WeakAura.
+2. Copy the Import String from [here](https://wago.io/hBttee1i).
+3. Re-import it on Wago.io.
+4. Upload it to wago.io as an unlisted WeakAura, ensuring to test it first and include a backlink.
+5. In the left navigation panel, open the editor and select "Table-Data".
+6. Copy the entire "Table Data" content.
+7. Upload your file to the [CSV-Parser v2](https://automarker.d-q.xyz/csvparse_v2.html).
+8. Insert the "Table Data" content.
+9. Click "Upload and Process".
+10. Copy the content from "Updated Table Data".
+11. Open your Weakaura on wago.io.
+12. In the left navigation panel, open the editor and select "Table-Data".
+13. Replace the entire content.
+14. Scroll to the top and click save.
+15. **Important:** Reload the page.
+16. Copy the new Import String.
+17. Update your local WeakAura within your WoW client by importing the new string.
+
+   > 🔴 **Important:** 
+   >
+   > Be cautious about introducing escape characters when adding custom options from a CSV. While there is a workaround for certain escape characters, it's recommended to avoid unnecessary ones.
+
 ---
 
-## Contributions
+### To-Do List
 
-Thanks to **Maey** Gehennas and **Ryts** for their work in Classic and TBC.
-
-The Main Weakaura is a fork of https://wago.io/-4-XO5Mst and https://wago.io/WvTWjRwcu 
+- [x] Basic CSV parser implementation.
+- [x] Draft initial documentation.
+- [x] Develop table data merger for automatic output of the complete table with only the updated author options.
+- [x] Produce a blank WeakAura with relevant content.
+- [x] Thoroughly document the process step-by-step.
+- [ ] Add a visual How To process.
+- [ ] Promote and share the tool. 🎉
 
 ---
 
+## Acknowledgements
 
-**GM of \<p h o e n i x> Razorfen**
+A heartfelt thank you to **Maey** from Gehennas and **Ryts** for their invaluable contributions during the Classic and TBC eras.
 
-<img src="https://i.imgur.com/qz0L6Zk.png" width="100"> 
+The main WeakAura has its origins in [this source](https://wago.io/-4-XO5Mst) and [this one](https://wago.io/WvTWjRwcu).
 
+---
+
+**Guild Master of \<p h o e n i x> Razorfen**
+
+![GM Logo](https://i.imgur.com/qz0L6Zk.png)
