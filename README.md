@@ -2,7 +2,7 @@
 
 A toolset for creating forks of automarker WeakAuras based on CSV data.
 
-## DQ's Auto Marker for ICC by <p h o e n i x> Razorfen
+## DQ's Auto Marker for ICC | by \<p h o e n i x> Razorfen
 
 - [DQ's Auto Marker for ICC](https://wago.io/Ck9JAf55V)
 
