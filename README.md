@@ -53,7 +53,7 @@ This might clear up your questions. [Diagram](https://github.com/DieQuelle/dqs-a
 1. Begin by creating a new WeakAura.
 2. Open this Weakaura [here](https://wago.io/hBttee1ip).
 3. Go to left navigation panel, open the Editor and click on Export/Fork Changes (top right button)
-4. Click Fork Weakaura. (Middle Button) (Please select unlisted or )
+4. Click Fork Weakaura. (Middle Button) (Please set it to unlisted/private )
 5. In the left navigation panel, open the editor and select "Table-Data" (it should be open already)
 6. Copy the entire "Table Data" content.
 7. Upload your file to the [CSV-Parser v2](https://automarker.d-q.xyz/csvparse_v2.html).
