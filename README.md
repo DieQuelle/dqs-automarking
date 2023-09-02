@@ -1,7 +1,7 @@
 # DQ's Auto Marking Weakaura Tools
 
 This Tool allows you to process data and generate custom options based on the data given.
-The Main Idea is that people who are able to collect data from WoWhead or any other source can a marking Weakaura based on their collected data.
+The Main Idea is that people who are able to collect data from WoWhead or any other source can create a marking Weakaura based on their collected data.
 
 Due to weakaura limits its almost impossible to do that ingame for that count of mobs we are talking.
 Just to give you an example ICC Trash Mobs are about 115 - generated CustomOptions will be around 7000 lines of code.
@@ -42,11 +42,11 @@ This might clear up your questions. [Diagram](https://github.com/DieQuelle/dqs-a
    > The file should include: Zone Name, Monster Name, NPCID, type, default, d1, d2, d3, d4, and comment.
 
 <br>
-<br>
+
 
 ---
 <br>
-<br>
+
 
 ## How to Create a New WeakAura with my own Custom Options? 
 
@@ -75,11 +75,11 @@ This might clear up your questions. [Diagram](https://github.com/DieQuelle/dqs-a
    > The CSV File gets validated. Open Browser Console for Log and Erros (Press F12)
 
 <br>
-<br>
+
 
 ---
 <br>
-<br>
+
 
 ### To-Do List
 
@@ -97,13 +97,11 @@ This might clear up your questions. [Diagram](https://github.com/DieQuelle/dqs-a
 
 
 <br>
-<br>
-<br>
+
 
 ---
 <br>
-<br>
-<br>
+
 
 ## Acknowledgements
 
