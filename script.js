@@ -198,12 +198,12 @@ function processFile() {
         const reader = new FileReader();
         reader.onload = function(event) {
             const csv = event.target.result;
-            const data = parseCSV(csv); // Hier setzen wir voraus, dass Sie eine Parse-Funktion haben
-            processCSV(data); // Verwenden Sie die zuvor definierte processCSV-Funktion
-            const processedData = processCSV(data); // Nehmen wir an, processCSV gibt die verarbeiteten Daten zurück
+            const data = parseCSV(csv); 
+            processCSV(data); 
+            const processedData = processCSV(data); 
             displayResults(processedData);
         }
-        reader.readAsText(file, "UTF-8"); // Enforce UTF-8 encoding
+        reader.readAsText(file, "UTF-8"); 
     } else {
         alert('Please select a file first.');
     }

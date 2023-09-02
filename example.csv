@@ -1,6 +1,6 @@
-﻿zone;monster;npcid;type;default;d1;d2;d3;d4;comment
-Light's Hammer;;;seperator;;;;;;
-Light's Hammer;The Damned;37011;trash;;;;;;
-The Spire;;;seperator;;;;;;
-The Spire;Lord Marrowgar ;37864;boss;;;;;;
-The Spire;Deathbound Ward ;37007;trash;;;;;;https://wowpedia.fandom.com/wiki/Deathbound_Ward
+﻿zone;npcname;npcid;type;default;d1;d2;d3;d4;comment
+Light's Hammer;;;zero;;;;;;
+Light's Hammer;The Damned;37011;four;1;2;3;4;;
+The Spire;;;zero;;;;;;
+The Spire;Lord Marrowgar;37864;two;;;;;;
+The Spire;Deathbound Ward;37007;four;;;;;;https://wowpedia.fandom.com/wiki/Deathbound_Ward
